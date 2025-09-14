@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John L Bradfield</title>
+<style>
+  /* Global Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+  }
+  a { text-decoration: none; color: #0077b6; }
+  a:hover { text-decoration: underline; }
+
+  /* Header */
+  header {
+    background: #0077b6; 
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+
+  /* Navigation */
+  nav {
+    text-align: center;
+    background: #00b4d8;
+    padding: 10px 0;
+  }
+  nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* Sections */
+  section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* Skills List */
+  ul.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  ul.skills li {
+    background: #00b4d8;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+  /* Sample Cards */
+  .sample-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  .card h3 {
+    color: #0077b6;
+    margin-top: 0;
+  }
+
+  /* Contact */
+  .contact-info p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #e0e0e0;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 { font-size: 2rem; }
+    header p { font-size: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>John L Bradfield</h1>
+  <p>Retail & Real Estate Consultant | Web Developer | Professional Writer</p>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#skills">Skills</a>
+  <a href="#samples">Writing Samples</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I bring over 30 years of experience in retail management, real estate, web development, and professional writing. I have managed retail operations for multiple SPAR supermarkets, co-owned a store, and worked as a realtor with one of South Africa’s top agencies. I am fluent in English and have written high-quality content for client websites, blogs, and marketing materials. My goal is to help businesses succeed through operations expertise, digital presence, and engaging content.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>Retail Operations & Consulting</li>
+    <li>Real Estate Support</li>
+    <li>Web Development: HTML, CSS, PHP</li>
+    <li>Professional Writing & Blogging</li>
+    <li>Virtual Assistance / Admin</li>
+    <li>Windows & Linux Computer Literacy</li>
+  </ul>
+</section>
+
+<section id="samples">
+  <h2>Writing Samples</h2>
+  <div class="sample-cards">
+    <div class="card">
+      <h3>5 Strategies to Improve Customer Experience in Your Grocery Store</h3>
+      <p>Running a successful grocery store requires more than just stocking shelves—it’s about creating an experience that keeps customers coming back. Key strategies: optimize layout, train staff, monitor inventory, engage with customers, and leverage technology.</p>
+    </div>
+    <div class="card">
+      <h3>Top Tips for Selling Your Home Quickly</h3>
+      <p>Selling a home can be challenging. Stage your home professionally, price strategically, enhance curb appeal, use high-quality photography, and leverage online marketing to attract serious buyers quickly.</p>
+    </div>
+    <div class="card">
+      <h3>How a Professional Website Can Transform Your Small Business</h3>
+      <p>A website is more than an online presence—it’s a business tool that drives growth. Ensure clean design, easy navigation, SEO optimization, engaging content, and secure functionality to convert visitors into loyal customers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:john@johnlbradfield.com">john@johnlbradfield.com</a></p>
+    <p>Website: <a href="https://johnlbradfield.com">johnlbradfield.com</a></p>
+    <p>Phone: +27 82 681 7621</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/johnbradfield" target="_blank">linkedin.com/in/johnbradfield</a></p>
+  </div>
+</section>
+
+/*
+<footer>
+  <p>&copy; 2025 John L Bradfield. All rights reserved.</p>
+</footer>
+*/
+
+</body>
+</html>
